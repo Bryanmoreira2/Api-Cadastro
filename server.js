@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 
-// Get all users
+// Get all user
 app.get("/usuarios", async (req, res) => {
     const users = await prisma.user.findMany();
 

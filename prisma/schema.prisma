@@ -9,7 +9,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mongodb"
+  provider = "cadastro_ihy4"
   url      = env("DATABASE_URL")
 }
 
